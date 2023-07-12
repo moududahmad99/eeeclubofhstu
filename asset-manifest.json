@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eeeclubofhstu/static/css/main.5e655606.css",
+    "main.js": "/eeeclubofhstu/static/js/main.24227cb7.js",
+    "static/media/banner-picture.jpg": "/eeeclubofhstu/static/media/banner-picture.45f9a54ce195f2b7cbf5.jpg",
+    "static/media/banner-1.jpg": "/eeeclubofhstu/static/media/banner-1.8eec61f557554e06a744.jpg",
+    "index.html": "/eeeclubofhstu/index.html",
+    "main.5e655606.css.map": "/eeeclubofhstu/static/css/main.5e655606.css.map",
+    "main.24227cb7.js.map": "/eeeclubofhstu/static/js/main.24227cb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e655606.css",
+    "static/js/main.24227cb7.js"
+  ]
+}
