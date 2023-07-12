@@ -1,0 +1,8 @@
+.login-form {
+  justify-content: center;
+}
+
+.contact-password a,
+.signup-link a {
+  text-decoration: none !important;
+}

@@ -1,0 +1,10 @@
+.events-card {
+  box-shadow: 1px 0px 19px -4px rgba(156, 155, 155, 0.84);
+  padding: 40px;
+  margin-top: 10px;
+}
+
+
+.events {
+  margin: 0 10px;
+}

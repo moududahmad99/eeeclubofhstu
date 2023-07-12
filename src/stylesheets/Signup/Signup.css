@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@200;400&display=swap");
+body {
+  /* background: linear-gradient(to right, #c4edff, #6bd0ef, #2c5364); */
+  font-family: "Poppins", sans-serif !important;
+}
+
+#form {
+  width: 80%;
+  margin: 13vh auto 0 auto;
+  padding: 30px;
+
+  background-color: rgb(253, 253, 253);
+  border-radius: 4px;
+  font-size: 12px;
+  background: #ece9e97e;
+}
+
+#form h2 {
+  color: #2b1d2e;
+  text-align: center;
+  font-size: 26px;
+  border-bottom: 1px solid grey;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-color: #09c372;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif !important;
+}
+
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 13%;
+  color: white;
+  background-color: rgb(7, 21, 148);
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 12px;
+  width: 100%;
+  float: left;
+  letter-spacing: 1px;
+}
+
+.input-box input:focus {
+  outline: 0;
+}
+
+.input-box.success input {
+  border-color: #09c372;
+}
+
+.input-box.error input {
+  border-color: #ff3860;
+}
+
+.input-box .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+
+form .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+  display: flex;
+  position: relative;
+  float: left;
+  padding-left: 20px;
+}
+label {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif !important;
+  letter-spacing: 1.2px;
+  color: #2b1d2e;
+  padding-bottom: 5px;
+}
+.district,
+.department {
+  width: 100%;
+  padding: 10px;
+  color: rgb(94, 94, 94);
+  font-size: 16px;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: 0px 1px grey;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+@media (max-width: 600px) {
+  #form {
+    width: 100%;
+    margin: 5vh auto 0 auto;
+    padding: 30px;
+
+    background-color: rgb(253, 253, 253);
+    border-radius: 4px;
+    font-size: 11px;
+  }
+
+  form .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    float: left;
+    padding-left: 10px;
+  }
+
+  #form button {
+    padding: 5px;
+    margin-top: 5px;
+    width: 35%;
+  }
+}
